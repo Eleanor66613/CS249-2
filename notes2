@@ -1,0 +1,157 @@
+X=USV' U: left eigenvectors V':right eigenvectors S: diagnal matrix of
+eigenvalues next week: y=X*beta
+
+CovarianceAndCorrelation Distribution LSI SVD
+
+Medicare dataset: try to find fraud
+
+What kind of distribution a kind of histogram is covatriance 
+
+l1-norm2 is not a good way to represent error, ususally use l1-norm1
+
+eigenstructure  
+
+X': conjugates transport
+A=X'X, A is real symmetric and positive semidefinite (semidefinite: the eigenvalues are non negative)
+
+For real symmetric An*n
+A=Q*L*Q' (all of Q,L, and Q' are n*n)
+
+Q=(e1, e2....en) (ei are eignvectors)
+L=(X1
+     X2
+       X3
+          ...
+              Xn)    Xi belongs to R
+
+Eigenvalues/Eigenvectors
+
+A*X=B*X B is engenvalue, X is engenvector
+
+if we take Galton state, y: childe height, x: adult height, how can we  get the egienvector and egienvalue of it?
+We considor e1 as the first egenvector, e2 is the second egenvector, find the proper aces and perpendicular axes from which you can rotate your data around
+
+Q(0.96, -0.29) 
+ (0.29, 0.96),the column are engenvectors 
+L (1.92, 0.00)
+  (0.00, 0.48) the rows are engenvalues
+the shape of the blue dots represent the egenvators and egenvalue
+
+<ei, ej> =0 if (i!=j)
+         =1 if (i==j)
+
+Q'=(e1
+    e2
+    e3
+    ...
+    en)
+
+Q*Q'=I, so Q'=Q^(-1)
+Q': "orthogonal matrix"
+
+A=QLQ'=QLQ^(-1)
+
+(x|y)= (1 |0 ) =I (I'=I^(-1)=I)
+      0| 1
+othogonal matrix
+
+Q=(e1|e2), Q is a rotation of  (0 1
+                                1 0)
+ 
+After the rotation, the rotation * Q^(-1) will rotate back.
+ 
+Q=a*e1+ b*e2
+Q^(-1)=
+
+A=QLQ'=QLQ^(-1)
+Q' * Q^(-1) ---> E ---> E*QL-----> a*e1+b*e2  so A =  a*e1+b*e2
+
+We must understand covariance, It is easily explained when we understand eigenvalues/vectors and SVD
+
+unit vector * Q will rotate towards left
+unit vector * Q^(-1) will rotate towrads right
+
+SVD:
+A=USV', A not must be symmetric matrix, it could be any matrix
+U is eigenvetor
+V' is the eigenvetor
+S is the diagnal vector
+
+A=USV'
+where U is unitary, which means U'=U^T=U^(-1)
+U'U=I=UU', V'V=I=VV'
+S is diagnol matrix, where a11>=a22>=a33>=a44....>=ann>=0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
